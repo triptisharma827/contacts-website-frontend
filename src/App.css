@@ -7,16 +7,18 @@
     z-index: -1; 
     pointer-events: none;
 }
-/* .main-screen {
-    display: flex; */
-    /* justify-content: center; Horizontally centers the content */
-    /* align-items: center; Vertically centers the content */
-    /* background-color: rgba(44, 51, 51, 0.9);
-    border-radius: 30px;
-    margin: auto;
-    margin-top: 5%;
-    width: 80vw;
-    height: 65vw;
-    max-width: 600px;
-    max-height: 780px;
-  } */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #7e9ea0;
+}

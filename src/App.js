@@ -19,6 +19,7 @@ function App() {
       </Routes>
      
     </Router>
+    <p className='footer'>copyright@ <a href='https://linktr.ee/triptisharmaa'>Tripti Sharma</a></p>
     </div>
   );
 }
